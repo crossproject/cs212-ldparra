@@ -13,7 +13,19 @@ public static class Arrays
         // step by step before you write the code. The plan should be clear enough that it could
         // be implemented by another person.
 
-        return []; // replace this return statement with your own
+        // Create an Array of doubles for storing results
+        var resultArray = new double[length];
+
+        // Make a loop where the counter should be smaller than length
+        for (int i = 0; i < length; i++)
+        {
+            // Multiply number by counter + 1, then store the result in
+            // Array using counter as index
+            resultArray[i] = number * (i + 1);
+        }
+
+        // Return Array
+        return resultArray;
     }
 
     /// <summary>
@@ -29,5 +41,18 @@ public static class Arrays
         // Remember: Using comments in your program, write down your process for solving this problem
         // step by step before you write the code. The plan should be clear enough that it could
         // be implemented by another person.
+
+        // Get range to move
+        // Insert range at start of list
+        data.InsertRange(0,
+        
+            data.GetRange(data.Count - amount, amount)  
+
+        );                              
+        
+        // Remove range added at start of list
+        data.RemoveRange(data.Count - amount, amount);
+        
+
     }
 }
