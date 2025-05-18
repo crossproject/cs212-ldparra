@@ -62,7 +62,7 @@ public class PriorityQueueTests
     // Defect(s) Found: The if statement for highPriorityIndex should be only for
     // high priority, not equal.
 
-    public void TestPriorityQueue_RemoveOneOfHighPriority()
+    public void TestPriorityQueue_RemoveFirstOfHighPriority()
     {
         PriorityQueue priorityQueue = new PriorityQueue();
 
