@@ -43,9 +43,9 @@ public class TakingTurnsQueue
             if (person.Turns > 1)
             {
                 person.Turns -= 1;
-                _people.Enqueue(person);                
+                _people.Enqueue(person);
             }
-            // Added a person infinite statement
+
             else if (person.Turns <= 0)
             {
                 _people.Enqueue(person);
